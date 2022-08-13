@@ -1,0 +1,23 @@
+:root {
+  --pad: 0 5%;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f5f7;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 2px solid black; */
+  padding: var(--pad);
+  box-shadow: 0 4px 6px -6px rgb(165, 165, 165);
+}
