@@ -19,3 +19,7 @@
 .btn:active {
   transform: scale(0.94);
 }
+
+.encryption {
+  padding: var(--pad);
+}
