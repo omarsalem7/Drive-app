@@ -46,6 +46,10 @@ input::file-selector-button {
   background-color: #4caf52;
 }
 
+input::file-selector-button:active {
+  transform: scale(0.94);
+}
+
 .form-input {
   height: 1.7rem;
   border: 1px solid #e5e5e5;
