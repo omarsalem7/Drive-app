@@ -38,8 +38,8 @@ To get a local copy up and running follow these simple example steps.
 #### Clone this repository
 
 ```bash
-$ git clone https://github.com/omarsalem7/eco-az.git
-$ cd Portfolio
+$ git clone https://github.com/omarsalem7/Drive-app.git
+$ cd Drive-app
 ```
 
 #### Run project
