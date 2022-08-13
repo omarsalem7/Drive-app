@@ -7,7 +7,7 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-h2 {
+.login-title-box h2 {
   padding: 0;
   margin: 0;
 }
@@ -17,30 +17,27 @@ body {
 }
 
 .wrapper {
+  width: 450px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  max-width: 400px;
-  min-width: 340px;
   background-color: #ffffff;
   border-radius: 0.5rem;
   box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.1);
 }
 
 .login-title-box {
-  /* background-color: antiquewhite; */
   border-bottom: 1px solid #e5e5e5;
   padding: 1rem 1.5rem;
 }
 
 .info-p {
-  margin-left: 2rem;
+  padding: 0 1.5rem;
 }
 
 .login-form {
-  padding: 1rem 2rem;
-  /* padding-top: 0.5rem; */
+  padding: 0.5rem 1.5rem;
 }
 
 .form-group {
@@ -72,14 +69,14 @@ body {
   color: #d7d7d7;
 }
 
-.form-group .btn {
-  background-color: #4caf50;
-  font-weight: 600;
-  color: #ffffff;
-  height: 3rem;
-}
-
 .btn-secondary {
   margin-top: 0rem !important;
   background-color: #ffc0c7 !important;
+}
+
+/* Mobile version adjusment */
+@media screen and (max-width: 770px) {
+  .wrapper {
+    max-width: 350px;
+  }
 }
