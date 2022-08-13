@@ -68,11 +68,6 @@ body {
   color: #d7d7d7;
 }
 
-.btn-secondary {
-  margin-top: 0rem !important;
-  background-color: #ffc0c7 !important;
-}
-
 /* Mobile version adjusment */
 @media screen and (max-width: 770px) {
   .wrapper {
