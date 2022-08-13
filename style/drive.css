@@ -125,4 +125,8 @@ input::file-selector-button {
   .form-key button {
     margin-top: 10px;
   }
+
+  .form-input {
+    padding-left: 5px;
+  }
 }
